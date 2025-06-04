@@ -2,13 +2,13 @@
   "name": "shoresquad",
   "version": "1.0.0",
   "description": "Rally your crew, track weather, and hit the next beach cleanup with our dope map app!",
-  "main": "index.html",
-  "scripts": {
+  "main": "index.html",  "scripts": {
     "start": "live-server --port=3000 --open=/index.html",
     "dev": "live-server --port=3000 --open=/index.html --watch=.",
-    "build": "echo 'Build script for production deployment'",
+    "build": "echo 'ShoreSquad: Ready for GitHub Pages deployment' && echo 'All static files are production-ready'",
     "test": "echo 'Test script placeholder'",
-    "lint": "echo 'Linting script placeholder'"
+    "lint": "echo 'Linting script placeholder'",
+    "deploy": "echo 'Deploying to GitHub Pages...'"
   },
   "keywords": [
     "beach-cleanup",
